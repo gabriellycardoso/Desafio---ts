@@ -1,0 +1,81 @@
+.div1{
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    width: 1440px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.titulo{
+    width: 92.11px;
+    height: 24px;
+    top: 11px;
+    left: 18.16px;
+    top: 11px;
+    left: 18.16px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.cadastro{
+    display: flex;
+    align-content: stretch;
+    flex-direction: row-reverse;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.pacotes2{
+    display: flex;
+    width: 589px;
+    height: 38px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.data{
+    display: flex;
+    align-content: space-around;
+    margin: -5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 990px;
+    border-color: #CED4DA;
+}
+
+.descrição{
+    display: flex;
+    height: 161px;
+    width: 555px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.descrição01{
+    display: flex;
+    width: 1229px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 142px;
+}
+
+.laabel{
+    font-family: 'Inter', sans-serif;
+}
+
+.text1{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
