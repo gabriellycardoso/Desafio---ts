@@ -1,7 +1,6 @@
 .div1{
     background-color: #F8F9FA;
     border-radius: 4px;
-    width: 1440px;
     height: 48px;
     display: flex;
     justify-content: center;
@@ -30,45 +29,32 @@
 
 .geral{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
 }
 
-.pacotes2{
+.pacotes1, .descricao01 {
+    width: 45%;
+}
+
+.status2 {
     display: flex;
+    justify-content: space-between;
+}
+
+.pacotes {
     width: 589px;
     height: 38px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-.data{
-    display: flex;
-    align-content: space-around;
-    margin: -5px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 990px;
-    border-color: #CED4DA;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
 }
 
-.descrição{
-    display: flex;
-    height: 161px;
-    width: 555px;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.descrição01{
-    display: flex;
-    width: 1229px;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-    height: 142px;
+#data {
+    width: 293px;
+    height: 38px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
 }
 
 .laabel{
@@ -78,4 +64,78 @@
 .text1{
     font-size: 24px;
     font-family: 'Inter', sans-serif;
+}
+
+input#descricao.descricao{
+    width: 555px;
+    height: 161px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+}
+
+button{
+    width: 109px;
+    height: 39px;
+    background: #8458FF;
+    border-radius: 4px;
+    color: white;
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.botoes_gerais{
+    width: 1189px;
+    height: 265px;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+}
+
+button.botao2{
+    background: #FFC107;
+    border-radius: 4px;
+    color: white;
+}
+
+button.botao3{
+    background: #DC3545;
+    border-radius: 4px;
+    color: white;
+}
+
+.color{
+    width: 1440px;
+    height: 250px;
+    background: #F6511D;
+}
+
+.texto{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+
+.barra{
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.p_texto{
+    color: white;
+}
+
+.ajustes{
+    justify-content: center;
+}
+
+.color_geral{
+    display: flex;
+    justify-content: center
 }

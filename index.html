@@ -7,66 +7,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio</title>
     <link rel="stylesheet" href="estilo.css">
-    <script src="desafio.js"></script>
-
+    
 </head>
 
 <body>
-
+    
     <div class="div1">
-
+        
         <h3 class="titulo">SyncTur</h3>
-
+        
     </div>
-
+    <br>
+    <br>
     <h3 class="cadastro">Cadastrar Pacotes</h3>
-
+    <br>
+    
     <div class="geral">
-
+        
         <div class="pacotes1">
             <div class="pacotes2">
                 
                 <h3 class="text1">Pacotes</h3>
                 <input class="pacotes" type="text" id="text" placeholder="Digite seu nome completo">
+                <br>
+                <br>
+            </div>
+            <div class="status2">
+
+                <div class="status">
+                    
+                    <label class="text1">Status do Pacotes</label>
+                    <br>
+                    <br>
+                    <input type="radio" id="ativo_desafio" value="Ativo">
+                    <label for="ativo_desafio">Ativo</label>
+                    <br>
+                    <br>
+                    <input type="radio" id="inativo_desafio" value="Inativo">
+                    <label for="inativo_desafio">Inativo</label>
+                </div>
+                
+                <div class="data">
+                    
+                    <label class="text1">Data da Viagem</label>
+                    <br>
+                    <br>
+                    <input type="date" id="data">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="descricao01">
+            
+            <div class="descricao">
+                
+                <h3 class="text1">Descrição</h3>
+                <input class="descricao" type="text" id="descricao" placeholder="Descrição do pacote">
                 
             </div>
         </div>
-
-    <div class="status2">
-
-        <div class="status">
-            
-            <label class="text1">Status do Pacotes</label>
-            
-            <input type="radio" id="ativo_desafio" value="Ativo">
-            <label for="ativo_desafio">Ativo</label>
-            <br>
-            <input type="radio" id="inativo_desafio" value="Inativo">
-            <label for="inativo_desafio">Inativo</label>
-        </div>
-
+        
     </div>
+    <br>
+    <br>
+    <br>
+    <div class="cadastrar"><button onclick="cadastrar()">Cadastrar</button></div>
+    <br>
+    <br>
+    
+    <div class="ajustes">
+        
+    </div>
+    <br>
+    <br>
+    
+    <div class="color_geral">
+        
+        <div class="color">
+
+            <h2 class="texto">SyncTur</h2>
             
-        <div class="data">
+            <div class="barra"></div>
 
-            <label class="text1">Data da Viagem</label>
-            <input type="date" id="data">
-
-        </div>
-
-        <div class="descrição01">
-
-            <div class="descrição">
-
-                <h3 class="text1">Descrição</h3>
-                <input class="descrição" type="text" id="text" placeholder="Descrição do pacote">
-
+        <div class="ajustando_site">
+            <div class="site">
+                
+                <p class="p_texto">
+                    Company Inc., 8901 Marmora Road, Glasgow, D04 89GR
+                </p>
+                <p class="p_texto">
+                    Call us now toll free: (800)2345-6789
+                </p>
+                <p class="p_texto">
+                    Customer support: support@demolink.org
+                </p>
+                <p class="p_texto">
+                    Skype: sample-username
+                </p>
             </div>
-
+        </div>
         </div>
 
     </div>
-
+    
+    <script src="desafio.js"></script>
 </body>
 
 </html>
